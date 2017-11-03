@@ -1,0 +1,23 @@
+{
+  "name": "annunci",
+  "version": "1.0.0",
+  "description": "Annunci Project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Angelo Munno",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "glob": "^7.1.2",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.10.7",
+    "mongoose-datatable": "^1.0.6",
+    "path": "^0.12.7",
+    "winston": "^2.3.1"
+  }
+}
