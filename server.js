@@ -26,8 +26,6 @@ app.listen(port,function(){
 config.getGlobbedFiles('./app/routes/**/*.js').forEach(function(routePath) {
 
     var name = path.basename(routePath, '.js');
-
-    //var modulo = require(path.resolve(routePath))(app);
     var modulo = require(path.resolve(routePath));
 
     logger.info('Utilizzo del modulo di rotta ' + name);
